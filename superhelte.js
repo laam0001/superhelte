@@ -21,6 +21,7 @@ function showHero(hero) {
   copy.querySelector("p.height").textContent = hero.height;
   copy.querySelector("p.birthday").textContent = hero.birthday;
   copy.querySelector("img").src = hero.image;
+
   const parent = document.querySelector(".grid");
   parent.appendChild(copy);
 }
